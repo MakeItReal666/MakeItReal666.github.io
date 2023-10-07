@@ -27,3 +27,25 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# Steps to deploy code to github pages
+1. merged code to main branch
+1. open VS code from main branch
+1. create a production build called 'dist'
+   ```sh
+   npm run build
+   ```
+1. push the 'dist' to new or existing gh-pages branch
+   ```sh
+   git subtree push --prefix dist origin gh-pages
+   ```
+1. (If have, can skipped to next step) included gh-pages in devDependencies in package.json
+   ```sh
+   npm install gh-pages --save-dev
+   ```
+1. deploy app to gh-pages
+   ```sh
+   npm run deploy
+   ```
+
+   RSC: https://mkay11.medium.com/how-to-deploy-your-vite-vue-3-application-in-github-pages-2023-2b842f50576a
