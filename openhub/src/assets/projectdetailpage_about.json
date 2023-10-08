@@ -1,0 +1,17 @@
+{
+    "project_title": "Cloudspotting on Mars",
+    "description": [
+        {
+            "title": "Mesospheric clouds on Mars and why we study them",
+            "content": "Clouds are a familiar feature in the atmospheres of planets. Because they can both warm and cool the atmosphere, they are important for understanding the weather and climate of planets. On Mars, icy clouds can form high in the atmosphere (above 50 km, about 30 miles up), the \"mesosphere,\" called \"mesospheric clouds\". These clouds are interesting for several reasons. Although Mars is a dry planet, there is water vapor in the atmosphere that can from water-ice clouds. However, because the atmosphere of Mars is made up almost entirely (95%) of carbon-dioxide and it is cold, carbon-dioxide ice (think dry ice!) clouds can also form."
+        },
+        {
+            "title": "Our dataset, how we find clouds, and why we need your help.",
+            "content": "To do this, we'll be searching through data acquired by the Mars Climate Sounder (MCS) on the Mars Reconnaissance Orbiter (MRO). MCS is an instrument that peers at the horizon of the planet in the infrared and visible to measure temperature, water-ice, and dust content of the atmosphere on Mars (McCleese et al., 2007). From nearly the first day that MCS sent data back to Earth, strange features were observed at high altitudes. These features have an arch-like or loop shape to them and have since been recognized to be clouds "
+        },
+        {
+            "title": "Long term goal",
+            "content": "First, we hope you and other citizen scientists will aid us in finding clouds during Mars Year 29 (it takes Mars 687 days to go around the sun), which was from December 2007 - October 2009. With a full Martian year of identified clouds, we can determine how mesospheric clouds change during different seasons on Mars, and compare in which spectral channels clouds are observed in order to get a handle on what types of clouds form at different times. These results will act as a \"ground-truth\" dataset for a machine learning algorithm to determine how accurate that model is at identifying clouds that citizen scientists have found. With a useful model, we can more quickly search other years for additional clouds and study how these clouds change year-to-year. However, we will likely need more help from citizen scientists like yourself to understand these changes. We expect to also add observations from Mars Year 30, where the Red Planet was much less dusty than the previous year, and Mars Year 31, where MCS began a new observation mode that looked at the planet in a different way, enabling studying different times of day (normally MCS observes at around 3 AM and 3 PM on Mars)."
+        }
+    ]
+}

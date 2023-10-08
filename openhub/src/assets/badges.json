@@ -1,0 +1,17 @@
+[
+    {
+        "level": "Bronze",
+        "number": "5",
+        "frame": "bronze-frame"
+    },
+    {
+        "level": "Silver",
+        "number": "10",
+        "frame": "silver-frame"
+    },
+    {
+        "level": "Gold",
+        "number": "15",
+        "frame": "gold-frame"
+    }
+]

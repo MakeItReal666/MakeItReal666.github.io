@@ -1,0 +1,348 @@
+export interface RankingList {
+  user_id: number;
+  avatar: string;
+  rating: number;
+  contribution?: number;
+  no_of_project?: number;
+  name: string;
+  badge: string;
+  points: number;
+  skillArr: string[];
+  city: string;
+  country: string;
+  country_code: string;
+}
+
+export interface ChatList {
+  avatar: string;
+  name: string;
+  chat_detail: string;
+  group_name: string;
+  anonymous_sts?: number;
+  online_sts?: number;
+  badge?: string;
+}
+
+export const collaborators = [
+  {
+    user_id: 2,
+    rating: 3.6,
+    contribution: 1,
+    avatar: "https://picsum.photos/250/300?image=120",
+    name: "Peter Parker",
+    badge: "gold",
+    points: 100,
+    skillArr: ["Eat", "Sleep", "Play"],
+    city: "Samarahan",
+    country: "Malaysia",
+    country_code: "MY",
+  },
+  {
+    user_id: 3,
+    rating: 3.3,
+    contribution: 1,
+    avatar: "https://picsum.photos/250/300?image=102",
+    name: "John Doe",
+    badge: "silver",
+    points: 75,
+    skillArr: ["Coding", "Design", "Testing"],
+    city: "New York",
+    country: "United States",
+    country_code: "US",
+  },
+  {
+    user_id: 5,
+    rating: 3.1,
+    contribution: 0,
+    avatar: "https://picsum.photos/250/300?image=103",
+    name: "Alice Smith",
+    badge: "bronze",
+    points: 50,
+    skillArr: ["Marketing", "Sales", "Communication"],
+    city: "London",
+    country: "United Kingdom",
+    country_code: "GB",
+  },
+  {
+    user_id: 9,
+    rating: 0,
+    contribution: 0,
+    avatar: "https://picsum.photos/250/300?image=117",
+    name: "Ella Johnson",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Paris",
+    country: "France",
+    country_code: "FR",
+  },
+  {
+    user_id: 10,
+    rating: 0,
+    contribution: 4,
+    avatar: "https://picsum.photos/250/300?image=118",
+    name: "Robert Brown",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Berlin",
+    country: "Germany",
+    country_code: "DE",
+  },
+];
+
+export const creators = [
+  {
+    user_id: 1,
+    rating: 4.3,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=122",
+    name: "John Smith",
+    badge: "gold",
+    points: 100,
+    skillArr: ["Coding", "Design", "Testing"],
+    city: "Los Angeles",
+    country: "United States",
+    country_code: "US",
+  },
+  {
+    user_id: 2,
+    rating: 2.9,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=120",
+    name: "Peter Parker",
+    badge: "gold",
+    points: 100,
+    skillArr: ["Eat", "Sleep", "Play"],
+    city: "Samarahan",
+    country: "Malaysia",
+    country_code: "MY",
+  },
+  {
+    user_id: 3,
+    rating: 1,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=102",
+    name: "John Doe",
+    badge: "silver",
+    points: 75,
+    skillArr: ["Coding", "Design", "Testing"],
+    city: "New York",
+    country: "United States",
+    country_code: "US",
+  },
+  {
+    user_id: 4,
+    rating: 0,
+    no_of_project: 1,
+    name: "Jane Smith",
+    avatar: "https://picsum.photos/250/300?image=133",
+    badge: "bronze",
+    points: 50,
+    skillArr: ["Marketing", "Sales", "Communication"],
+    city: "London",
+    country: "United Kingdom",
+    country_code: "GB",
+  },
+  {
+    user_id: 5,
+    rating: 0,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=103",
+    name: "Alice Smith",
+    badge: "bronze",
+    points: 50,
+    skillArr: ["Marketing", "Sales", "Communication"],
+    city: "London",
+    country: "United Kingdom",
+    country_code: "GB",
+  },
+  {
+    user_id: 6,
+    rating: 0,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=115",
+    name: "Marry Johnson",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Paris",
+    country: "France",
+    country_code: "FR",
+  },
+  {
+    user_id: 7,
+    rating: 0,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=116",
+    name: "David Lee",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Berlin",
+    country: "Germany",
+    country_code: "DE",
+  },
+  {
+    user_id: 8,
+    rating: 0,
+    no_of_project: 1,
+    name: "Laura Brown",
+    avatar: "https://picsum.photos/250/300?image=117",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Madrid",
+    country: "Spain",
+    country_code: "ES",
+  },
+  {
+    user_id: 9,
+    rating: 0,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=117",
+    name: "Ella Johnson",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Paris",
+    country: "France",
+    country_code: "FR",
+  },
+  {
+    user_id: 10,
+    rating: 0,
+    no_of_project: 1,
+    avatar: "https://picsum.photos/250/300?image=118",
+    name: "Robert Brown",
+    badge: "none",
+    points: 0,
+    skillArr: [],
+    city: "Berlin",
+    country: "Germany",
+    country_code: "DE",
+  },
+];
+
+export const Private_Chat = [
+  {
+    avatar: "https://picsum.photos/250/300?image=100",
+    name: "Lauren Eduardo",
+    chat_detail: "Hello! Can you tell me more about the project?",
+    anonymous_sts: 1,
+    online_sts: 0,
+    badge: "gold",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=101",
+    name: "Sylvain Samrawit",
+    chat_detail: "Hi there! I'm interested in learning about the project.",
+    anonymous_sts: 1,
+    online_sts: 0,
+    badge: "silver",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=102",
+    name: "John Doe",
+    chat_detail: "Greetings! What's the scope of the project?",
+    anonymous_sts: 0,
+    online_sts: 1,
+    badge: "bronze",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=103",
+    name: "Alice Smith",
+    chat_detail: "Good day! Tell me more about the project goals.",
+    anonymous_sts: 1,
+    online_sts: 1,
+    badge: "gold",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=104",
+    name: "Bob Johnson",
+    chat_detail: "Hello! Is there a timeline for the project?",
+    anonymous_sts: 0,
+    online_sts: 0,
+    badge: "silver",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=105",
+    name: "Ella Martinez",
+    chat_detail: "Hi! What's the budget for the project?",
+    anonymous_sts: 1,
+    online_sts: 1,
+    badge: "bronze",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=106",
+    name: "David Williams",
+    chat_detail:
+      "Greetings! Are there any specific requirements for the project?",
+    anonymous_sts: 0,
+    online_sts: 0,
+    badge: "gold",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=107",
+    name: "Emily Brown",
+    chat_detail: "Hello there! Tell me about the project team.",
+    anonymous_sts: 1,
+    online_sts: 1,
+    badge: "silver",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=108",
+    name: "Michael Davis",
+    chat_detail: "Hi! How can I contribute to the project?",
+    anonymous_sts: 0,
+    online_sts: 1,
+    badge: "bronze",
+  },
+  {
+    avatar: "https://picsum.photos/250/300?image=109",
+    name: "Sophia Wilson",
+    chat_detail: "Good day! What's the long-term vision for the project?",
+    anonymous_sts: 1,
+    online_sts: 0,
+    badge: "gold",
+  },
+];
+
+export const Group_Chat = [
+  {
+    name: "Emma Johnson",
+    avatar: "https://picsum.photos/201",
+    chat_detail: "Hey! How's it going?",
+    group_name: "NASA",
+  },
+  {
+    name: "Liam Smith",
+    avatar: "https://picsum.photos/202",
+    chat_detail: "Hi there!",
+    group_name: "YOLO",
+  },
+  {
+    name: "Olivia Brown",
+    avatar: "https://picsum.photos/203",
+    chat_detail: "Hey!",
+    group_name: "UniFlea",
+  },
+  {
+    name: "Noah Taylor",
+    avatar: "https://picsum.photos/204",
+    chat_detail: "Hello!",
+    group_name: "IXTau",
+  },
+  {
+    name: "Ava Jones",
+    avatar: "https://picsum.photos/205",
+    chat_detail: "Hi!",
+    group_name: "FYP",
+  },
+  {
+    name: "Ethan Williams",
+    avatar: "https://picsum.photos/206",
+    chat_detail: "Hey Ethan!",
+    group_name: "FYP2",
+  },
+];

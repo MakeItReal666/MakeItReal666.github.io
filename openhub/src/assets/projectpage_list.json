@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Image-Adapted Visually Weighted Quantization Matrices for Digital Image Compression (DCTune)",
+        "percentage": 65,
+        "count": 234,
+        "image_url": "https://picsum.photos/1000/300?random=1"
+    },
+    {
+        "name": "HiMAP: Portable 3-Level Super-Modular Parallel High-Fidelity Multidisciplinary Analysis Process",
+        "percentage": 42,
+        "count": 769,
+        "image_url": "https://picsum.photos/1000/300?random=2"
+    },
+    {
+        "name": "NetworKing: Space Communications and Navigation (SCaN) App",
+        "percentage": 78,
+        "count": 128,
+        "image_url": "https://picsum.photos/1000/300?random=3"
+    },
+    {
+        "name": "Sector 33 App",
+        "percentage": 91,
+        "count": 587,
+        "image_url": "https://picsum.photos/1000/300?random=4"
+    }
+]

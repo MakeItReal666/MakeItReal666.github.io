@@ -1,0 +1,36 @@
+[
+    {
+      "name": "Image-Adapted Visually Weighted Quantization Matrices for Digital Image Compression (DCTune)",
+      "tags": [
+        "NASA",
+        "ARC",
+        "U.S. Government Purpose Release",
+        "Data and Image Processing"
+      ],
+      "creator": "Michael Johnson",
+      "amount": "348"
+    },
+    {
+      "name": "HiMAP: Portable 3-Level Super-Modular Parallel High-Fidelity Multidisciplinary Analysis Process",
+      "tags": [
+        "NASA",
+        "ARC",
+        "U.S. Government Purpose Release",
+        "Data and Image Processing"
+      ],
+      "creator": "Emily Smith",
+      "amount": 54
+    },
+    {
+      "name": "NetworKing: Space Communications and Navigation (SCaN) App",
+      "tags": [
+        "NASA",
+        "ARC",
+        "General Public",
+        "Design and Integration Tools"
+      ],
+      "creator": "James Brown",
+      "amount": 789
+    }
+  ]
+  

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Image-Adapted Visually Weighted Quantization Matrices for Digital Image Compression (DCTune)",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Data and Image Processing"
+    ],
+    "description": "This image compression software eliminates redundant and invisible image components using a discrete cosine transform (DCT). Each DCT coefficient is used to determine the perceived image quality and the bit rate of the image being compressed.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Expert",
+    "location": "Brooklyn, USA"
+  },
+  {
+    "name": "HiMAP: Portable 3-Level Super-Modular Parallel High-Fidelity Multidisciplinary Analysis Process",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Data and Image Processing"
+    ],
+    "description": "HiMAP solves static and dynamic problems by tightly coupling the Euler/Navier-Stokes flow solutions with modal/finite-element structural solutions using built-in moving grids.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Intermediate",
+    "location": "Ginza, Japan"
+  },
+  {
+    "name": "NetworKing: Space Communications and Navigation (SCaN) App",
+    "tags": [
+      "NASA",
+      "ARC",
+      "General Public",
+      "Design and Integration Tools"
+    ],
+    "description": "The NetworKing Game is an educational, interactive 3D game in which the player develops a space communication network. As he builds his network infrastructure, client spacecraft are attracted to the network, generating income and allowing the player to build further. As the player expands his robust communication network, fortunate and unfortunate events occur. The game can be downloaded at: www.nasa.gov/multimedia/3d_resources/scan.html",
+    "date": "2014-04-15",
+    "level_of_expertise": "Beginner",
+    "location": "Kreuzberg, Germany"
+  },
+  {
+    "name": "Sector 33 App",
+    "tags": [
+      "NASA",
+      "ARC",
+      "General Public Release",
+      "Aeronautics"
+    ],
+    "description": "Offering a single user interface, Sector 33 is an air traffic control simulator game for Apple and Droid mobile devices. The technology includes introductory videos, an interactive air traffic control simulation of up to five airplanes; problem scoring; and integrated solution hints. The game can be downloaded at: http://www.nasa.gov/connect/apps.html",
+    "date": "2014-04-15",
+    "level_of_expertise": "Intermediate",
+    "location": "Sydney, Australia"
+  },
+  {
+    "name": "Multi-Aircraft Control System (MACS) Software",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Aeronautics"
+    ],
+    "description": "MACS increases the overall realism of human-in-the-loop air traffic control (ATC) simulations. The system accommodates multiple onsite or offsite participants (e.g., pilots, controllers, airline dispatchers, or observers) and provides simulations from either a pilot's view or a controller's view.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Expert",
+    "location": "Queen's Park, Canada"
+  },
+  {
+    "name": "Lag Model-A Turbulence Model for Attached and Separated Flows",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "System Testing"
+    ],
+    "description": "This NASA-developed technology includes a set of partial differential equations that augment the Reynolds-averaged Navier-Stokes equation. By providing a mechanism that allows flow history to affect turbulence stresses, Lag Model mimics underlying physical processes to provide an improved turbulence model for flows with separation.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Beginner",
+    "location": "Brixton, UK"
+  },
+  {
+    "name": "Implicit Finite-Difference Code for a Two-Equation Turbulence Model for Three-Dimensional Flows (KEM)",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Design and Integration Tools"
+    ],
+    "description": "This semi-implicit finite-difference code solves the transport equations for the turbulence kinetic energy and its dissipation rate in generalized curvilinear coordinates in three dimensions. The finite difference equations are solved using the Beam-Warming approximate factorization algorithm.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Expert",
+    "location": "Shibuya, Japan"
+  },
+  {
+    "name": "Elimination of Parameter Input Requirement for Elliptic Grid Generation Methods in Engineering",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Data and Image Processing"
+    ],
+    "description": "This software implements an enhanced method of elliptic grid generation.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Intermediate",
+    "location": "Kreuzberg, Germany"
+  },
+  {
+    "name": "Automated Conflict Resolution for Air Traffic Control (AAC), Versions 1 and 2",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Aeronautics"
+    ],
+    "description": "The AAC algorithm generates resolution trajectories through a multi-step iterative process: (1) a resolution generator performs the analytical and logical functions; (2) a 4D trajectory synthesizer integrates aircraft equations of motion using detailed models of aircraft performance, operational procedures, and atmospheric conditions; and (3) a conflict detector compares trial resolution trajectories against the 4D trajectories of all other aircraft in an airspace of interest.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Intermediate",
+    "location": "Redfern, Australia"
+  },
+  {
+    "name": "Cockpit Displays of Traffic Information (CDTI) Software Suite",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Aeronautics"
+    ],
+    "description": "CDTI consists of two main components: (1) the Pulse Predictor for Traffic Display Tool, which allows a user to compare a representation of his own expected trajectory with those of other traffic elements; and (2) the Flight-Deck-Based Flight Plan Modification Tool, which allows flight crew members to display and modify their flight plans graphically, check for predicted conflicts, and load changes into the flight management system.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Beginner",
+    "location": "Queen's Park, Canada"
+  },
+  {
+    "name": "AutoFilter: Automatic Generation of Customized State Estimation Code with Kalman Filters",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Data and Image Processing"
+    ],
+    "description": "AutoFilter is a software tool that automatically generates C code for a state estimator that uses Kalman filters. The tool accepts the user's linearized process and measurement models in state-space form and automatically generates code for implementing a Kalman filter estimator on a target processor.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Expert",
+    "location": "Brooklyn, USA"
+  },
+  {
+    "name": "POSTPROC User-Interactive Software for the Analysis of Human Physiological Data",
+    "tags": [
+      "NASA",
+      "ARC",
+      "U.S. Government Purpose Release",
+      "Crew and Life Support"
+    ],
+    "description": "POSTPROC is a software tool designed to interactively process and display human physiological data acquired from crew members during space flight and from ground-based subjects. POSTPROC provides a wide range of signal processing and data analysis capabilities that can be used to process data from a variety of biomedical instruments.",
+    "date": "2014-04-15",
+    "level_of_expertise": "Beginner",
+    "location": "Brixton, UK"
+  }
+]
