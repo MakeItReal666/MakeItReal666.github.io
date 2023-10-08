@@ -82,7 +82,7 @@ export default defineComponent({
     RankingDialog,
   },
   setup(props) {
-    const headers: Headers[] = reactive([
+    const headers: Headers[]|any = reactive([
       {
         title: "Ranking",
         align: "center",

@@ -27,8 +27,8 @@ export default {
     };
 
     onMounted(() => {
-      loginUrl.value = window.location.origin + '/login';
-      signUpUrl.value = window.location.origin + '/login';
+      loginUrl.value = window.location.origin + '/signUpLogin';
+      signUpUrl.value = window.location.origin + '/signUpLogin';
     });
 
     const avatarFunction = (num: number) => {

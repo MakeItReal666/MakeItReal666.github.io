@@ -17,7 +17,7 @@ import { defineComponent, ref /*onMounted, inject */ } from "vue";
 
 export default defineComponent({
   setup() {
-    const route = ref("/login");
+    const route = ref("/signUpLogin");
 
     return { route };
   },

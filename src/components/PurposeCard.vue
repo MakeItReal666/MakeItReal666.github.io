@@ -1,8 +1,7 @@
 <script lang="ts">
 import backgroundLayout from '../layouts/LoginLayout.vue';
 import CardLayout from '../layouts/CardLayout.vue';
-import { onMounted, defineComponent, ref } from "vue";
-import { useRouter } from 'vue-router'; // Import the router from Vue Router
+import { defineComponent} from "vue";
 
 export default defineComponent({
     components: {

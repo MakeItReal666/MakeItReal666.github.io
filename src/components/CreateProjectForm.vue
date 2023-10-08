@@ -91,7 +91,6 @@
                 single-line
                 variant="outlined"
                 closable-chips
-                rules=""
               ></v-autocomplete
             ></v-row>
           </v-col>

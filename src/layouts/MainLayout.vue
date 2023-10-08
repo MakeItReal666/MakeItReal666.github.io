@@ -3,7 +3,7 @@
     <v-layout style="background-color: #eeeeee;">
       <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
 
-      <v-app-bar color="primary" density="comapct" prominent>
+      <v-app-bar color="primary" prominent>
         <v-row align="center" justify="center" no-gutters>
           <v-col cols="2" class="pr-8">
             <router-link to="/home"><v-row justify="end"><v-img max-width="64"
@@ -29,21 +29,21 @@
                   <v-row justify="center">
                     <v-icon>mdi-compass</v-icon>
                   </v-row>
-                  <v-row justify="center text-subtitle-2">Explore</v-row>
+                  <v-row justify="center" class="text-subtitle-2">Explore</v-row>
                 </v-col>
               </v-btn>
               <v-btn class="mx-2" @click="ToRanking()"><v-col>
                   <v-row justify="center">
                     <v-icon>mdi-chevron-triple-up</v-icon>
                   </v-row>
-                  <v-row justify="center text-subtitle-2">Ranking</v-row>
+                  <v-row justify="center" class="text-subtitle-2">Ranking</v-row>
                 </v-col>
               </v-btn>
               <v-btn class="mx-2" @click="ToProfile()"><v-col>
                   <v-row justify="center">
                     <v-icon>mdi-account</v-icon>
                   </v-row>
-                  <v-row justify="center text-subtitle-2">Profile</v-row>
+                  <v-row justify="center" class="text-subtitle-2">Profile</v-row>
                 </v-col>
               </v-btn>
               <v-col cols="2" class="pr-8">

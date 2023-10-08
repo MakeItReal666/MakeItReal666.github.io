@@ -9,10 +9,10 @@ import userData from '../assets/users.json'
 import badgeData from '../assets/badges.json'
 
 const route = useRoute()
-const username = route.params.id
+const username= route.params.id
 const isOwnProfile = ref(username == 'jessicaparker')
 
-const userDetail = ref(userData[username])
+const userDetail = ref(userData[username as keyof typeof userData])
 
 const badgeDialog = ref(false)
 

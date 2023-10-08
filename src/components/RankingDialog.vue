@@ -33,7 +33,7 @@
             </v-row>
           </v-col>
           <v-col cols="12" class="pa-4">
-            <v-row justify="center text-subtitle-1 font-weight-bold">
+            <v-row justify="center" class=" text-subtitle-1 font-weight-bold">
               {{ rowVal?.name }}
             </v-row>
             <v-row justify="center"
