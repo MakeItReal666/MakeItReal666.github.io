@@ -7,7 +7,7 @@
         <v-row align="center" justify="center" no-gutters>
           <v-col cols="2" class="pr-8">
             <router-link to="/home"><v-row justify="end"><v-img max-width="64"
-                  src="src/assets/logo.svg"></v-img></v-row></router-link>
+                  src="../assets/logo.svg"></v-img></v-row></router-link>
           </v-col>
           <v-col cols="5" class="px-8">
             <v-text-field
